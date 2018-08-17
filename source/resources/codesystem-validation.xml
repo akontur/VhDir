@@ -17,11 +17,17 @@
 	<caseSensitive value="true"/>
 	<valueSet value="http://hl7.org/fhir/ig/vhdir/ValueSet/valueset-validationtype"/>
 	<content value="complete"/>
+<<<<<<< HEAD
 	<concept>
 		<code value="noneneeded"/>
 		<display value="None needed"/>
+=======
+	<!-- <concept>
+		<code value="none"/>
+		<display value="none"/>
+>>>>>>> 68aa74c2bf85fb8b60a2b4a0f353a5615033b0c6
 		<definition value="No validation needed/planned for this resource or element."/>
-	</concept>
+	</concept> -->
 	<concept>
 		<code value="initial"/>
 		<display value="Initial"/>
@@ -112,11 +118,19 @@
 		<display value="Record only"/>
 		<definition value="A failure that may be relevant to some local workflow environments and will be documented but not result in notification or publication of the error."/>
 	</concept>
+<<<<<<< HEAD
 	<concept>
 		<code value="noaction"/>
 		<display value="No action"/>
 		<definition value="A failure that is unlikely to be relevant to any local workflow environment."/>
 	</concept>
+=======
+	<!-- <concept>
+		<code value="none"/>
+		<display value="A failure that is unlikely to be relevant to any local workflow environment."/>
+		<definition value="to review"/>
+	</concept> -->
+>>>>>>> 68aa74c2bf85fb8b60a2b4a0f353a5615033b0c6
 	<concept>
 		<code value="manual"/>
 		<display value="Manual"/>
